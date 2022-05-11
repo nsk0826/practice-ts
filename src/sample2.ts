@@ -27,4 +27,12 @@ for (const row of rows) {
 }
 console.log(JSON.stringify(users));
 
-
+for (const user of users) {
+  if(user.premiumUser){
+    console.log(`${user.name} (${user.age})はプレミアムユーザーです。`);
+  } else {
+    console.log(
+      `${user.name} (${user.age})はプレミアムユーザーではありません。`
+    );
+  }
+}
