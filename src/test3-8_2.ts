@@ -11,7 +11,6 @@ Mary Sue,14,1
 `;
 
 const humans: Human[] = [];
-
 const lines = datas.split("\n");
 
 for (const line of lines) {
