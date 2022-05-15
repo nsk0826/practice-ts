@@ -5,7 +5,7 @@ type Human = {
 };
 
 const datas: string = `
-uhyo,26,1
+uhyo,27,1
 john Smith,17,0
 Mary Sue,14,1
 `;
