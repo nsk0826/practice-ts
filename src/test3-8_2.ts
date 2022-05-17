@@ -34,7 +34,7 @@ for (const human of humans) {
     console.log(`${human.name} (${human.age})はプレミアムユーザーです。`);
   } else {
     console.log(
-      `${human.name} (${human.age})はプレミアムユーザーではありません。`
+      `${human.name} (${human.age})はプレミアムユーザーではありません!`
     );
   }
 }
