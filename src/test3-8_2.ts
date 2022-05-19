@@ -8,6 +8,7 @@ const datas: string = `
 uhyo,27,1
 john Smith,17,0
 Mary Sue,14,1
+Mary jo,14,1
 `;
 
 const humans: Human[] = [];
