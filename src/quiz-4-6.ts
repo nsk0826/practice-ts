@@ -21,9 +21,9 @@ const getFissBuzzString = (i: number): string => {
     return String(i);
   }
 };
-const sequence = (init: number, max: number): number[] => {
+const sequence = (start: number, end: number): number[] => {
   const result = [];
-  for (let i = init; i <= 100; i++) {
+  for (let i = start; i <= end; i++) {
     result.push(i);
   }
   return result;
