@@ -10,7 +10,7 @@
 //   }
 // }
 
-const getFissBuzzString = (i:number):string =>{
+const getFissBuzzString = (i: number): string => {
   if (i % 3 === 0 && i % 5 === 0) {
     return "FizzBuzz :" + i;
   } else if (i % 5 === 0) {
@@ -20,9 +20,16 @@ const getFissBuzzString = (i:number):string =>{
   } else {
     return String(i);
   }
-}
+};
+const sequence = (init: number, max: number): number[] => {
+  const result = [];
+  for (let i = init; i <= 100; i++) {
+    result.push(i);
+  }
+  return result;
+};
 
-for(let i = 1; i <= 100; i++) {
+for (const i of sequence(1, 100)) {
   const message = getFissBuzzString(i);
-  console.log(message)
+  console.log(message);
 }
