@@ -5,3 +5,7 @@ const repeat = <T>(elment: T, length: number): T[] => {
   }
   return result;
 };
+
+
+const resultString = repeat<string>("aaa", 5);
+
