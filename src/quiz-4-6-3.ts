@@ -7,7 +7,7 @@ const map = <T,U>(array: U[], callback: (x: U) => T): T[] => {
 };
 
 const heyName = <T extends { name : string }>(man : T ):string => {
-  return ""
+  return `hey${man.name}`
 }
 const numbers = [1, 1, 2, 3, 5, 8, 13];
 
