@@ -19,6 +19,13 @@ const resultBoolean = map(numbers2, (x: number) => x >= 0);
 
 const resultFormatNumbers = map(numbers, (x: number) => "No" + x);
 
+const taro = {
+  name:"taro",
+  age:20
+}
+
+console.log(heyName(taro));
+
 console.log(resultNumbers);
 
 console.log(resultBoolean);
