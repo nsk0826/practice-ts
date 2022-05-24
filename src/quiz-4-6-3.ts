@@ -6,6 +6,9 @@ const map = <T,U>(array: U[], callback: (x: U) => T): T[] => {
   return result;
 };
 
+const heyName = <T extends { name : string }>(man : T ):string => {
+  return ""
+}
 const numbers = [1, 1, 2, 3, 5, 8, 13];
 
 const resultNumbers = map(numbers, (x: number) => x * 10);
