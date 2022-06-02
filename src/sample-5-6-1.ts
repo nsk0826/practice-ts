@@ -1,9 +1,13 @@
-type UserNA = {
+class UserClass  {
+  constructor(name:string, age:number){
+    this.name = name,
+    this.age = age
+  }
   name: string;
   age: number;
 };
 
-function createUser(name: string, age: number): UserNA {
+function createUser(name: string, age: number): UserClass {
   if (name === "") {
     throw new Error("名前は空にできません！");
   }
@@ -13,7 +17,7 @@ function createUser(name: string, age: number): UserNA {
   };
 }
 
-function getMessage(user: UserNA, message: string): string {
+function getMessage(user: UserClass, message: string): string {
   return `${user.name}(${user.age}) 「${message}」`;
 }
 
