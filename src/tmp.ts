@@ -6,10 +6,12 @@ type sampleF = {
 
 type F = (args: number) => number;
 
-const ff :sampleF = {
+const ff: sampleF = {
   name: "taro",
   age: 10,
   func: (n: number) => {
-    return n + 1; 
-  }
-}
+    return n + 1;
+  },
+};
+
+console.log(ff.func(100));
