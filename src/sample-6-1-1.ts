@@ -15,3 +15,7 @@ const tama: User2 = {
 const fooMan: User2 = {
   name: "foo",
 };
+
+
+
+
