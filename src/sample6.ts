@@ -17,3 +17,14 @@ const getAge = (animal: Animal3) => {
   }
   return `${animal.name}は${animal.age}歳です`;
 };
+
+const pochi: Animal3 = {
+  age: 4,
+  tag: "animal",
+};
+
+const tarou: Animal3 = {
+  age: 23,
+  tag: "human",
+  name: "太郎",
+};
