@@ -11,4 +11,9 @@ type Human3 = {
 
 type Animal3 = Animal2 | Human3;
 
-const getAge = () = 
+const getAge = (animal: Animal3) => {
+  if (animal.tag === "animal") {
+    return `この動物は ${animal.age} さい`;
+  }
+  return `${animal.name}は${animal.age}歳です`;
+};
