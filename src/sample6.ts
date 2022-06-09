@@ -8,3 +8,7 @@ type Human3 = {
   name: string;
   tag: "human";
 };
+
+type Animal3 = Animal2 | Human3;
+
+const getAge = () = 
