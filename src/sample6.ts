@@ -1,4 +1,4 @@
-type Animal = {
+type Animal2 = {
   age:number,
   tag:"animal"
 }
