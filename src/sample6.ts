@@ -28,3 +28,7 @@ const tarou: Animal3 = {
   tag: "human",
   name: "太郎",
 };
+
+console.log(getAge(tarou));
+
+console.log(getAge(pochi));
