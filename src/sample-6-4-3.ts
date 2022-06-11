@@ -15,4 +15,5 @@ const foo: Human4 = {
 console.log(get(foo, "name"));
 
 console.log(get(foo, "age"));
-
+// error
+//console.log(get(foo, "man" ))
