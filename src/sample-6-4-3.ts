@@ -12,8 +12,15 @@ const foo: Human4 = {
   age: 10,
 };
 
+const hoge = {
+  hoge: true,
+  hage: "hage"
+}
+
 console.log(get(foo, "name"));
 
 console.log(get(foo, "age"));
 // error
 //console.log(get(foo, "man" ))
+
+console.log(get(hoge, "hage"))
