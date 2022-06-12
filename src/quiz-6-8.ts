@@ -28,3 +28,18 @@ const nothing: Option<number> = {
 
 showNumberIfExists(four);
 showNumberIfExists(nothing);
+
+const mapOption = <T, U>(
+  obj: Option<T>,
+  callback: (value: T) => U
+): Option<U> => {
+  return isSome(obj)
+    ? { tag: "same", value: callback(obj.value) }
+    : { tag: "none" };
+};
+const doubleOption = (obj: Option<number>) => {
+  return mapOption(obj, (x) => x * 2);
+};
+
+console.log(doubleOption(four));
+console.log(doubleOption(nothing));
