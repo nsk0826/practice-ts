@@ -24,3 +24,12 @@ const nothing: Option<number> = {
 
 showNumberIfExists(four);
 showNumberIfExists(nothing);
+
+type Option2<T> =
+  | {
+      tag: "ame";
+      val: T;
+    }
+  | {
+      tag: "none";
+    };
