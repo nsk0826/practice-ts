@@ -22,5 +22,5 @@ const nothing: Option<number> = {
   tag: "none",
 };
 
-showNumberIfExists(4);
-showNumberIfExists();
+showNumberIfExists(four);
+showNumberIfExists(nothing);
