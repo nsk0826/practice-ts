@@ -12,3 +12,8 @@ const fooObj: FooNumber = {
   age: 10,
   score: 20,
 };
+
+const fooObj2: FooString = {
+  age: String(fooObj.age),
+  score: String(fooObj),
+};
