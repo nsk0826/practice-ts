@@ -17,3 +17,9 @@ const fooObj2: FooString = {
   age: String(fooObj.age),
   score: String(fooObj),
 };
+
+type keys = keyof FooNumber;
+
+for (const k of Object.keys(fooObj)) {
+  console.log(k);
+}
