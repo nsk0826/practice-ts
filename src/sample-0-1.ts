@@ -23,3 +23,14 @@ type keys = keyof FooNumber;
 for (const k of Object.keys(fooObj)) {
   console.log(k);
 }
+
+console.log("fooobj 1:" + Object.keys(fooObj)[1])
+
+// error
+//console.log("fooobj 1:" + fooObj[`${Object.keys(fooObj)[1]}`])
+
+console.log(fooObj[`age`])
+
+let aaa = Object.keys(fooObj)[1]
+
+
