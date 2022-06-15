@@ -23,3 +23,8 @@ type keys = keyof FooNumber;
 for (const k of Object.keys(fooObj)) {
   console.log(k);
 }
+const ks:keys = {
+  age:10,
+  score:1
+}
+
