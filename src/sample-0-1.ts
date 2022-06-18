@@ -37,3 +37,5 @@ let aaa = Object.keys(fooObj)[1]
 console.log(`aaa : ${aaa}`)
 
 console.log(fooObj[`score`])
+
+
