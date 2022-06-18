@@ -16,5 +16,3 @@ const ff: sampleF = {
 
 console.log(ff.func(100));
 
-
-// hello
