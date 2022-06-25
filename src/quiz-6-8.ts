@@ -1,3 +1,4 @@
+export {}
 type Option<T> =
   | {
       tag: "same";

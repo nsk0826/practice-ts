@@ -1,3 +1,4 @@
+export {}
 type FooNumber = {
   age: number;
   score: number;
