@@ -1,3 +1,4 @@
+export {}
 const map = <T,U>(array: U[], callback: (x: U) => T): T[] => {
   const result: T[] = [];
   array.map((v) => {
